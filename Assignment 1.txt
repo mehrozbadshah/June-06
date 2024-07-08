@@ -1,0 +1,145 @@
+Write a program that prints all even numbers from 1 to 100 ?
+Program <PrintEvenNumber1to100>
+A=1
+Read A
+While (A <= 101)
+If (A/2 == 0 )
+"Print the numbers";
+END
+
+
+
+
+
+Write a program that takes two numbers as input and print their sum ?
+Program <SumofTwoNumbers>
+A=1
+Read A
+B=5
+Read B
+C = A+B 
+Print C
+END
+
+
+
+
+
+
+Write a function that checks if a given year is leap year or not ?
+Program <YearIsLeapOrNot>
+"Enter the year"
+Read Year
+If (Year/4 = 0 AND year/100 != 0) OR year/400 = 0,
+Then 
+Print "Leap Year"
+Else "Not Leap Year"
+END
+
+
+
+
+
+
+
+Write a program that converts Km/h into Miles/h ?
+Program <ConvertKmToMiles>
+Miles Value = 0.621371
+MilesPerHours = KmPerhours * Miles Value
+Print "MilesPerHours"
+END
+
+
+
+
+
+
+
+
+Write a Pseudocode to check whether a number is a buzz number or not ?
+Program <CheckBuzzNumber>
+A= Number
+Read = A
+if (A/7 == 0 OR A/10 == 7)
+Print "True"
+else "False"
+
+
+
+
+
+
+Write a program that asks a user for number and prints the multiplication table of that number upto 10?
+Program <MultiplicationTableofNumber>
+A=Number
+Read A
+Counter Variable B = 1
+WHILE(B <= 10)
+Result= A*B
+Print Result
+ENDWHILE
+
+
+
+
+
+
+write a function that check whether a number is prime or not ?
+Program <PrimeNumber>
+A=Number
+Read A
+B A-1
+IsPrime=True
+WHILE (B != 1)
+DO IF (A/B = 0)
+Then IsPrime=false
+ENDIF
+B=B-1
+ENDWHILE
+IF (IsPrime=True)
+THEN Print "Prime"
+Else Print "Not Prime"
+ENDIF
+END
+
+
+
+
+
+
+
+
+
+Write a program that computes the factorial of a number? 
+
+function factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+
+
+
+
+
+
+
+
+
+
+write a function that check whether a number is Palindrome or not ?
+
+Program <checkPalindromeOrNot
+num= input number 
+Read the input number
+tempNum=num
+ while (num !=0)
+remainder = num % 10;
+reverse = reverse*10 + remainder;
+num = num / 10;
+if reverse == tempNum:
+    print("Given number is Palindrome")
+else:
+    print("Given number is not Palindrome")
+
